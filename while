@@ -1,1 +1,9 @@
-
+num=int(input())
+i=1
+wile i<=num:
+      print(i,end=" ")
+      i+=1
+      if i==6
+      break
+else:
+    print("hai")
