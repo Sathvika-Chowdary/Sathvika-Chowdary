@@ -1,0 +1,81 @@
+"""
+a,b=map(int,input().split())
+print(a+b)    #print(a>b)....by using its arethmatic operations
+""""
+
+
+"""
+a=input()
+b=input()
+print(ord('a')+ord('b'))
+"""
+
+
+"""
+#AREA,PERIMETER,DIAMETER---program:
+
+r=int(input())
+diameter=r*2                                                                   i/p:2
+area=3.14*r*r                                                                  o/p:diameter:4 area:12.56 perimeter:12.56
+perimeter=2*3.14*r
+print("diameter:",diameter,"area:",area"perimeter:",perimeter)
+
+
+
+l=int(input())
+b=int(input())                                                                   i/p:2
+a=l*b+b                                                                              2
+print('area:',l*b)                                                              o/p:area:4
+print('perimeter:',2*(l+b))                                                         perimeter:8
+print('diagnol:',a**(1/2))                                                          diagnol:2.4494
+"""  
+  
+  
+"""
+#EVEN,ODD---program: 
+
+num=int(input())
+if num%2==0:                                                                    i/p:24    (OR)    i/p:57
+    print("even")                                                               o/p:even          o/p:odd
+else:                                                                                   
+    print("odd")
+"""
+
+
+
+"""
+POSITIVE AND NEGATIVE WITH ZERO NUMBERS----->program
+num=int(input())
+if num>0:
+    print("positive")                                                            i/p:567          (OR)   i/p:-785      (OR)  i/p:0 
+elif num<0:                                                                      o/p:positive            o/p:negative        o/p: zero
+    print("negative")                                                                 
+else:                                                                                       
+    print("zero")                                                                               
+"""
+
+
+"""
+#NUMBER REDUCING---->program
+num=int(input())
+while num:                                                                       i/p:356            
+    r=num%10                                                                     0/p:6 35                                
+    num=num//10                                                                      5 3         
+    print(r,num)                                                                     3 0     
+"""    
+
+"""
+#ADDING DIGITS OF NUMBER----->program
+num=int(input())
+s=0
+while num:
+    r=num%10
+    num=num//10                                                             i/p:453      
+    s+=r                                                                    o/p:453        #4+5+3
+    if num==0 and s>9:                                                          12         #1+2
+        num=s                                                                   3          #3
+        print(num)
+        s=0
+print(s)
+"""
+        
